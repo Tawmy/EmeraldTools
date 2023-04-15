@@ -1,6 +1,7 @@
 package dev.tawmy.emerald_tools
 
 import dev.tawmy.emerald_tools.item.EmeraldSword
+import dev.tawmy.emerald_tools.item.tool_material.EmeraldToolMaterial
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
@@ -18,7 +19,7 @@ object EmeraldTools : ModInitializer {
 
     private val EMERALD_SWORD = Registry.register(
         Registries.ITEM, Identifier("emerald_tools", "emerald_sword"),
-        EmeraldSword(FabricItemSettings().maxCount(1))
+        EmeraldSword(EmeraldToolMaterial.INSTANCE, 3, -2.4F, FabricItemSettings())
     )
 
     override fun onInitialize() {
