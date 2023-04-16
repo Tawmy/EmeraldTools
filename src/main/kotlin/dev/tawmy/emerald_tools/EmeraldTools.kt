@@ -1,5 +1,6 @@
 package dev.tawmy.emerald_tools
 
+import dev.tawmy.emerald_tools.item.registrars.EmeraldArmorRegistrar
 import dev.tawmy.emerald_tools.item.registrars.EmeraldToolRegistrar
 import net.fabricmc.api.ModInitializer
 
@@ -12,6 +13,7 @@ class EmeraldTools : ModInitializer {
 
     override fun onInitialize() {
         EmeraldToolRegistrar().registerItems()
+        EmeraldArmorRegistrar().registerItems()
 
         println("Example mod has been initialized.")
     }

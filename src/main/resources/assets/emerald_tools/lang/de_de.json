@@ -3,5 +3,9 @@
   "item.emerald_tools.emerald_hoe": "Smaragdhacke",
   "item.emerald_tools.emerald_pickaxe": "Smaragdspitzhacke",
   "item.emerald_tools.emerald_shovel": "Smaragdschaufel",
-  "item.emerald_tools.emerald_sword": "Smaragdschwert"
+  "item.emerald_tools.emerald_sword": "Smaragdschwert",
+  "item.emerald_tools.emerald_helmet": "Smaragdhelm",
+  "item.emerald_tools.emerald_chestplate": "Smaragdharnisch",
+  "item.emerald_tools.emerald_leggings": "Smaragdbeinschutz",
+  "item.emerald_tools.emerald_boots": "Smaragdstiefel"
 }
